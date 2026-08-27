@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Andy Yang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="education.html">Education</a>
+      <a class="nav-link active" href="projects.html">Projects</a>
+      <a class="nav-link" href="skills.html">Skills</a>
+      <a class="nav-link" href="links.html" style="display:inline-flex;align-items:center;gap:6px;"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M6.5 9.5 9.5 6.5"/><path d="M7 4 8.5 2.5a2.5 2.5 0 0 1 3.5 3.5L10.5 7.5"/><path d="M9 12l-1.5 1.5a2.5 2.5 0 0 1-3.5-3.5L5.5 8.5"/></svg>Links</a>
+      <a class="nav-link" href="resume.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M9 1H3.5A1.5 1.5 0 0 0 2 2.5v11A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V6L9 1Z"/><path d="M9 1v5h5"/></svg>Resume</a>
+    </div>
+  </nav>
+  <div class="wrap">
+
+    <section id="projects" style="border-top:none;padding-top:40px;">
+      <div class="section-title">Projects</div>
+
+      <div class="project">
+        <div class="project-top">
+          <div class="project-name"><a href="https://github.com/ayheong/neatnet" target="_blank" rel="noopener">Neatnet</a></div>
+          <a class="project-link" href="https://github.com/ayheong/neatnet" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>github</a>
+        </div>
+        <p class="project-desc">Cross-platform desktop app that uses AI to generate, preview, and safely apply bulk file reorganization plans. Includes a topological move scheduler that resolves dependency cycles via temporary staging paths, and a dual backend supporting Claude API or local Ollama models for offline use.</p>
+        <div class="project-tags"><span class="tag">TypeScript</span><span class="tag">Tauri</span><span class="tag">React</span></div>
+      </div>
+
+      <div class="project">
+        <div class="project-top">
+          <div class="project-name"><a href="https://github.com/ayheong/personal-finance-app" target="_blank" rel="noopener">Personal Finance App</a></div>
+          <a class="project-link" href="https://github.com/ayheong/personal-finance-app" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>github</a>
+        </div>
+        <p class="project-desc">Turns bank and credit card statement data into categorized expenses and budgeting insights. Labeled 2,000+ transactions, fine-tuned a BERT classifier across 11 expense categories, served through a JWT-secured Flask + MongoDB backend.</p>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">BERT</span><span class="tag">Flask</span><span class="tag">MongoDB</span></div>
+      </div>
+
+      <div class="project">
+        <div class="project-top">
+          <div class="project-name"><a href="https://github.com/ayheong/tennis-pred" target="_blank" rel="noopener">ATP Tennis Match Predictor</a></div>
+          <a class="project-link" href="https://github.com/ayheong/tennis-pred" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>github</a>
+        </div>
+        <p class="project-desc">End-to-end pipeline predicting ATP match outcomes across 76,000+ historical matches, with features like head-to-head performance and Bradley-Terry skill ratings. Ensemble of LightGBM models tuned with Optuna, deployed as a containerized FastAPI service.</p>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">LightGBM</span><span class="tag">FastAPI</span><span class="tag">Docker</span></div>
+      </div>
+
+      <div class="project">
+        <div class="project-top">
+          <div class="project-name"><a href="https://github.com/ayheong/DQN_PPO_gym_2d_car_racing" target="_blank" rel="noopener">Car Racing with Reinforcement Learning</a></div>
+          <a class="project-link" href="https://github.com/ayheong/DQN_PPO_gym_2d_car_racing" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>github</a>
+        </div>
+        <p class="project-desc">Custom RL agents built in PyTorch for Gymnasium's 2D Car Racing environment, comparing on-policy vs. off-policy approaches. Applied experience replay, target networks, and policy clipping.</p>
+        <div class="project-tags"><span class="tag">Python</span><span class="tag">PyTorch</span></div>
+      </div>
+
+      <div class="project">
+        <div class="project-top">
+          <div class="project-name"><a href="https://github.com/ayheong/TenK" target="_blank" rel="noopener">TenK</a></div>
+          <a class="project-link" href="https://github.com/ayheong/TenK" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>github</a>
+        </div>
+        <p class="project-desc">Analyzes SEC EDGAR 10-K filings, extracts financial signals, and generates investor-friendly reports.</p>
+        <div class="project-tags"><span class="tag">Python</span></div>
+      </div>
+
+    </section>
+  </div>
+
+  <footer>
+    <a href="https://github.com/ayheong" target="_blank" rel="noopener">github.com/ayheong</a>
+  </footer>
+
+</body>
+</html>
