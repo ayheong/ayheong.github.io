@@ -82,95 +82,95 @@
     position: relative;
     z-index: 1;
     width: 100%;
-    max-width: min(1180px, 100%);
-    padding-top: clamp(16px, 2.5vh, 32px);
-    padding-bottom: clamp(16px, 2.5vh, 32px);
+    max-width: min(980px, 100%);
+    padding-top: clamp(12px, 2vh, 24px);
+    padding-bottom: clamp(12px, 2vh, 24px);
   }
   .hero-content {
     padding: 0;
     width: 100%;
   }
-  .page-home .header-row { gap: 22px; }
+  .page-home .header-row { gap: 16px; }
   .page-home .avatar {
-    width: clamp(96px, 10vw, 128px);
-    height: clamp(96px, 10vw, 128px);
+    width: clamp(72px, 8vw, 96px);
+    height: clamp(72px, 8vw, 96px);
   }
-  .page-home .avatar .initials { font-size: clamp(28px, 2.8vw, 38px); }
-  .page-home h1 { font-size: clamp(34px, 4.5vw, 56px); }
-  .page-home .role { font-size: clamp(15px, 1.5vw, 20px); }
-  .page-home .role-row { margin-top: 8px; gap: 10px 14px; }
+  .page-home .avatar .initials { font-size: clamp(22px, 2.2vw, 30px); }
+  .page-home h1 { font-size: clamp(28px, 3.6vw, 42px); }
+  .page-home .role { font-size: clamp(13px, 1.25vw, 16px); }
+  .page-home .role-row { margin-top: 6px; gap: 8px 12px; }
   .page-home .social-icons a {
-    width: 32px;
-    height: 32px;
-    border-radius: 7px;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
   }
-  .page-home .social-icons svg { width: 16px; height: 16px; }
+  .page-home .social-icons svg { width: 14px; height: 14px; }
   .page-home .status-line {
-    margin-top: clamp(16px, 2.4vh, 26px);
-    border-radius: 10px;
+    margin-top: clamp(12px, 2vh, 20px);
+    border-radius: 9px;
   }
   .page-home .status-item {
-    gap: 5px;
-    padding: 14px 18px;
+    gap: 4px;
+    padding: 10px 14px;
   }
-  .page-home .status-kicker { font-size: 0.72rem; }
-  .page-home .status-value { font-size: 1rem; }
+  .page-home .status-kicker { font-size: 0.65rem; }
+  .page-home .status-value { font-size: 0.9rem; }
   .page-home .home-tech {
-    margin-top: clamp(16px, 2.4vh, 26px);
-    padding: clamp(16px, 2vw, 24px) clamp(18px, 2.2vw, 28px);
+    margin-top: clamp(12px, 2vh, 20px);
+    padding: clamp(12px, 1.6vw, 18px) clamp(14px, 1.8vw, 22px);
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 12px;
+    border-radius: 10px;
   }
   .page-home .home-tech-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 12px;
+    gap: 8px;
+    margin-bottom: 10px;
   }
   .page-home .home-tech-top .recent-label {
     margin-bottom: 0;
-    font-size: 0.72rem;
+    font-size: 0.65rem;
   }
   .page-home .home-tech-more {
     font-family: var(--font-mono);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     color: var(--text-dim);
     text-decoration: none;
   }
   .page-home .home-tech-more:hover { color: var(--accent); }
   .page-home .tag {
-    font-size: 0.78rem;
-    padding: 4px 10px;
+    font-size: 0.72rem;
+    padding: 3px 8px;
   }
-  .page-home .project-tags { gap: 8px; }
+  .page-home .project-tags { gap: 6px; }
   .page-home .recent-project {
-    margin-top: clamp(16px, 2.4vh, 26px);
+    margin-top: clamp(12px, 2vh, 20px);
     max-width: none;
     width: 100%;
-    padding: clamp(18px, 2.2vw, 28px) clamp(20px, 2.4vw, 32px);
-    border-radius: 12px;
+    padding: clamp(14px, 1.8vw, 20px) clamp(16px, 2vw, 24px);
+    border-radius: 10px;
   }
-  .page-home .recent-project-main { gap: 18px; }
+  .page-home .recent-project-main { gap: 14px; }
   .page-home .recent-logo {
-    width: clamp(88px, 9vw, 116px);
-    height: clamp(88px, 9vw, 116px);
-    border-radius: 14px;
+    width: clamp(64px, 7vw, 84px);
+    height: clamp(64px, 7vw, 84px);
+    border-radius: 20px;
   }
-  .page-home .recent-logo-fallback { font-size: clamp(18px, 1.6vw, 24px); }
-  .page-home .recent-name { font-size: clamp(1.2rem, 1.8vw, 1.5rem); }
-  .page-home .recent-desc { font-size: clamp(0.95rem, 1.15vw, 1.05rem); max-width: none; line-height: 1.6; }
-  .page-home .recent-project .home-tech-top { margin-bottom: 10px; }
-  .page-home .recent-label { font-size: 0.72rem; }
+  .page-home .recent-logo-fallback { font-size: clamp(14px, 1.3vw, 18px); }
+  .page-home .recent-name { font-size: clamp(1.05rem, 1.5vw, 1.25rem); }
+  .page-home .recent-desc { font-size: clamp(0.85rem, 1vw, 0.95rem); max-width: none; line-height: 1.55; }
+  .page-home .recent-project .home-tech-top { margin-bottom: 8px; }
+  .page-home .recent-label { font-size: 0.65rem; }
   .page-home footer {
     flex-shrink: 0;
-    padding-top: 10px;
-    padding-bottom: 16px;
+    padding-top: 8px;
+    padding-bottom: 14px;
     position: relative;
     z-index: 1;
   }
-  .page-home footer a { font-size: 0.8rem; }
+  .page-home footer a { font-size: 0.75rem; }
 
   @media (max-width: 900px) {
     .page-home {
@@ -347,9 +347,7 @@
     width: clamp(96px, 9vw, 120px);
     height: clamp(96px, 9vw, 120px);
     flex-shrink: 0;
-    border-radius: 14px;
-    border: 1px solid var(--border);
-    background: var(--bg);
+    border-radius: 28px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -452,15 +450,15 @@
   .project {
     display: flex;
     align-items: flex-start;
-    gap: 18px;
-    padding: 22px 0;
+    gap: 14px;
+    padding: 16px 0;
   }
   .project + .project { border-top: 1px solid var(--border); }
   .project-logo {
-    width: calc(1.02rem * 1.65 * 5);
-    height: calc(1.02rem * 1.65 * 5);
+    width: calc(0.92rem * 1.55 * 3.2);
+    height: calc(0.92rem * 1.55 * 3.2);
     flex-shrink: 0;
-    border-radius: 12px;
+    border-radius: 20px;
     border: 1px solid var(--border);
     background: var(--surface);
     overflow: hidden;
@@ -468,7 +466,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 2px;
+    margin-top: 1px;
   }
   .project-logo img {
     width: 100%;
@@ -480,7 +478,7 @@
     display: none;
     font-family: var(--font-display);
     font-weight: 600;
-    font-size: 22px;
+    font-size: 14px;
     color: var(--accent);
     letter-spacing: 0.02em;
   }
@@ -489,10 +487,10 @@
   .project-body { min-width: 0; flex: 1; }
   .project-top {
     display: flex; justify-content: space-between; align-items: center;
-    gap: 16px; flex-wrap: wrap; margin-bottom: 8px;
+    gap: 12px; flex-wrap: wrap; margin-bottom: 6px;
   }
   .project-name {
-    font-family: var(--font-display); font-weight: 600; font-size: 1.2rem; color: var(--text);
+    font-family: var(--font-display); font-weight: 600; font-size: 1.02rem; color: var(--text);
     overflow-wrap: anywhere;
   }
   .project-name a { text-decoration: none; }
@@ -500,17 +498,17 @@
   .project-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 6px;
     align-items: center;
   }
   .project-link {
-    font-family: var(--font-mono); font-size: 12px; color: var(--text-muted);
+    font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);
     text-decoration: none; white-space: nowrap;
-    padding: 7px 12px; border-radius: 8px; border: 1px solid var(--border);
+    padding: 5px 10px; border-radius: 7px; border: 1px solid var(--border);
     background: var(--surface); transition: color 0.15s, background 0.15s, border-color 0.15s, transform 0.15s;
-    display: inline-flex; align-items: center; gap: 7px;
+    display: inline-flex; align-items: center; gap: 6px;
   }
-  .project-link svg { width: 14px; height: 14px; flex-shrink: 0; }
+  .project-link svg { width: 12px; height: 12px; flex-shrink: 0; }
   .project-link:hover { color: var(--text); background: var(--surface-hover); border-color: var(--accent-dim); }
   .project-link-github {
     color: var(--text);
@@ -522,7 +520,7 @@
     background: #30363d;
     border-color: var(--accent-dim);
   }
-  .project-link-github svg { width: 15px; height: 15px; }
+  .project-link-github svg { width: 13px; height: 13px; }
   .project-link-soon {
     color: var(--text-dim);
     border-style: dashed;
@@ -534,13 +532,17 @@
     background: var(--surface);
     border-color: var(--border);
   }
-  .project-desc { color: var(--text-muted); font-size: 1.02rem; margin-bottom: 14px; max-width: 72ch; overflow-wrap: anywhere; }
-  .project-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+  .project-desc { color: var(--text-muted); font-size: 0.92rem; margin-bottom: 10px; max-width: 68ch; overflow-wrap: anywhere; line-height: 1.55; }
+  .project-tags { display: flex; gap: 6px; flex-wrap: wrap; }
   .tag {
-    font-family: var(--font-mono); font-size: 11.5px; color: var(--teal);
+    font-family: var(--font-mono); font-size: 10.5px; color: var(--teal);
     background: rgba(90, 168, 156, 0.1); border: 1px solid rgba(90, 168, 156, 0.25);
-    padding: 3px 9px; border-radius: 4px;
+    padding: 3px 8px; border-radius: 4px;
   }
+
+  .page-projects .wrap { max-width: min(920px, 100%); }
+  .page-projects .section-title { font-size: 1.1rem; margin-bottom: 16px; }
+  .page-projects #projects { padding-top: 28px !important; }
 
   /* ---------- skills ---------- */
   .skills-grid {
@@ -738,18 +740,18 @@
 
     .header-row { flex-direction: column; align-items: flex-start; gap: 16px; }
     .avatar { width: 72px; height: 72px; }
-    .page-home .avatar { width: 80px; height: 80px; }
+    .page-home .avatar { width: 64px; height: 64px; }
 
-    .recent-project { padding: 16px 18px; max-width: none; }
-    .page-home .recent-project { padding: 18px 16px; }
-    .recent-logo { width: 72px; height: 72px; }
-    .page-home .recent-logo { width: 72px; height: 72px; }
-    .recent-logo-fallback { font-size: 16px; }
-    .project { gap: 14px; }
-    .project-logo { border-radius: 10px; }
-    .page-home .home-tech { padding: 14px; }
-    .page-home .status-item { padding: 12px 14px; }
-    .page-home .status-value { font-size: 0.95rem; }
+    .recent-project { padding: 14px 16px; max-width: none; }
+    .page-home .recent-project { padding: 14px 14px; }
+    .recent-logo { width: 56px; height: 56px; }
+    .page-home .recent-logo { width: 56px; height: 56px; }
+    .recent-logo-fallback { font-size: 14px; }
+    .project { gap: 12px; padding: 14px 0; }
+    .project-logo { border-radius: 16px; }
+    .page-home .home-tech { padding: 12px; }
+    .page-home .status-item { padding: 10px 12px; }
+    .page-home .status-value { font-size: 0.85rem; }
     .status-divider { display: none; }
     .status-item { border-top: 1px solid var(--border); flex: 1 1 100%; }
     .status-item:first-child { border-top: none; }
