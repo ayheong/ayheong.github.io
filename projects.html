@@ -13,7 +13,7 @@
   <nav>
     <div class="nav-inner">
       <a class="nav-link" href="index.html">Home</a>
-      <a class="nav-link" href="education.html">Education</a>
+      <a class="nav-link" href="about.html">About</a>
       <a class="nav-link active" href="projects.html">Projects</a>
       <a class="nav-link" href="contact.html">Contact</a>
       <a class="nav-link" href="resume.html"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M9 1H3.5A1.5 1.5 0 0 0 2 2.5v11A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V6L9 1Z"/><path d="M9 1v5h5"/></svg>Resume</a>
@@ -25,48 +25,93 @@
       <div class="section-title">Projects</div>
 
       <div class="project">
-        <div class="project-top">
-          <div class="project-name"><a href="https://github.com/ayheong/neatnet" target="_blank" rel="noopener">Neatnet</a></div>
-          <a class="project-link" href="https://github.com/ayheong/neatnet" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>github</a>
+        <div class="project-logo">
+          <img src="10k_logo.png" alt="" onload="this.parentElement.classList.remove('no-img')" onerror="this.parentElement.classList.add('no-img')">
+          <span class="project-logo-fallback">10K</span>
         </div>
-        <p class="project-desc">Cross-platform desktop app that uses AI to generate, preview, and safely apply bulk file reorganization plans. Includes a topological move scheduler that resolves dependency cycles via temporary staging paths, and a dual backend supporting Claude API or local Ollama models for offline use.</p>
-        <div class="project-tags"><span class="tag">TypeScript</span><span class="tag">Tauri</span><span class="tag">React</span></div>
+        <div class="project-body">
+          <div class="project-top">
+            <div class="project-name"><a href="https://github.com/ayheong/TenK" target="_blank" rel="noopener">TenK</a></div>
+            <div class="project-links">
+              <span class="project-link project-link-soon" title="Demo coming soon">demo coming soon</span>
+              <a class="project-link project-link-github" href="https://github.com/ayheong/TenK" target="_blank" rel="noopener" aria-label="View on GitHub"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a>
+            </div>
+          </div>
+          <p class="project-desc">Look up a company and get a clear, investor-friendly summary of its annual 10-K. Key signals from the filing without wading through hundreds of pages.</p>
+          <div class="project-tags"><span class="tag">Python</span></div>
+        </div>
       </div>
 
       <div class="project">
-        <div class="project-top">
-          <div class="project-name"><a href="https://github.com/ayheong/personal-finance-app" target="_blank" rel="noopener">Personal Finance App</a></div>
-          <a class="project-link" href="https://github.com/ayheong/personal-finance-app" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>github</a>
+        <div class="project-logo no-img">
+          <img src="neatnet_logo.png" alt="" onload="this.parentElement.classList.remove('no-img')" onerror="this.parentElement.classList.add('no-img')">
+          <span class="project-logo-fallback">NN</span>
         </div>
-        <p class="project-desc">Turns bank and credit card statement data into categorized expenses and budgeting insights. Labeled 2,000+ transactions, fine-tuned a BERT classifier across 11 expense categories, served through a JWT-secured Flask + MongoDB backend.</p>
-        <div class="project-tags"><span class="tag">Python</span><span class="tag">BERT</span><span class="tag">Flask</span><span class="tag">MongoDB</span></div>
+        <div class="project-body">
+          <div class="project-top">
+            <div class="project-name"><a href="https://github.com/ayheong/neatnet" target="_blank" rel="noopener">Neatnet</a></div>
+            <div class="project-links">
+              <span class="project-link project-link-soon" title="Demo coming soon">demo coming soon</span>
+              <a class="project-link project-link-github" href="https://github.com/ayheong/neatnet" target="_blank" rel="noopener" aria-label="View on GitHub"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a>
+            </div>
+          </div>
+          <p class="project-desc">Clean up messy folders with AI: get a reorganization plan, preview every move, then apply it safely, including offline with a local model.</p>
+          <div class="project-tags"><span class="tag">TypeScript</span><span class="tag">Tauri</span><span class="tag">React</span></div>
+        </div>
       </div>
 
       <div class="project">
-        <div class="project-top">
-          <div class="project-name"><a href="https://github.com/ayheong/tennis-pred" target="_blank" rel="noopener">ATP Tennis Match Predictor</a></div>
-          <a class="project-link" href="https://github.com/ayheong/tennis-pred" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>github</a>
+        <div class="project-logo no-img">
+          <img src="finance_logo.png" alt="" onload="this.parentElement.classList.remove('no-img')" onerror="this.parentElement.classList.add('no-img')">
+          <span class="project-logo-fallback">PF</span>
         </div>
-        <p class="project-desc">End-to-end pipeline predicting ATP match outcomes across 76,000+ historical matches, with features like head-to-head performance and Bradley-Terry skill ratings. Ensemble of LightGBM models tuned with Optuna, deployed as a containerized FastAPI service.</p>
-        <div class="project-tags"><span class="tag">Python</span><span class="tag">LightGBM</span><span class="tag">FastAPI</span><span class="tag">Docker</span></div>
+        <div class="project-body">
+          <div class="project-top">
+            <div class="project-name"><a href="https://github.com/ayheong/personal-finance-app" target="_blank" rel="noopener">Personal Finance App</a></div>
+            <div class="project-links">
+              <span class="project-link project-link-soon" title="Demo coming soon">demo coming soon</span>
+              <a class="project-link project-link-github" href="https://github.com/ayheong/personal-finance-app" target="_blank" rel="noopener" aria-label="View on GitHub"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a>
+            </div>
+          </div>
+          <p class="project-desc">Upload bank and credit card statements and see where your money goes: automatic expense categories and budgeting insights you can actually use.</p>
+          <div class="project-tags"><span class="tag">Python</span><span class="tag">BERT</span><span class="tag">Flask</span><span class="tag">MongoDB</span></div>
+        </div>
       </div>
 
       <div class="project">
-        <div class="project-top">
-          <div class="project-name"><a href="https://github.com/ayheong/DQN_PPO_gym_2d_car_racing" target="_blank" rel="noopener">Car Racing with Reinforcement Learning</a></div>
-          <a class="project-link" href="https://github.com/ayheong/DQN_PPO_gym_2d_car_racing" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>github</a>
+        <div class="project-logo no-img">
+          <img src="tennis_logo.png" alt="" onload="this.parentElement.classList.remove('no-img')" onerror="this.parentElement.classList.add('no-img')">
+          <span class="project-logo-fallback">ATP</span>
         </div>
-        <p class="project-desc">Custom RL agents built in PyTorch for Gymnasium's 2D Car Racing environment, comparing on-policy vs. off-policy approaches. Applied experience replay, target networks, and policy clipping.</p>
-        <div class="project-tags"><span class="tag">Python</span><span class="tag">PyTorch</span></div>
+        <div class="project-body">
+          <div class="project-top">
+            <div class="project-name"><a href="https://github.com/ayheong/tennis-pred" target="_blank" rel="noopener">ATP Tennis Match Predictor</a></div>
+            <div class="project-links">
+              <span class="project-link project-link-soon" title="Demo coming soon">demo coming soon</span>
+              <a class="project-link project-link-github" href="https://github.com/ayheong/tennis-pred" target="_blank" rel="noopener" aria-label="View on GitHub"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a>
+            </div>
+          </div>
+          <p class="project-desc">Pick an ATP matchup and get predicted win odds based on form, head-to-head history, and long-term player skill, so you can compare matches at a glance.</p>
+          <div class="project-tags"><span class="tag">Python</span><span class="tag">LightGBM</span><span class="tag">FastAPI</span><span class="tag">Docker</span></div>
+        </div>
       </div>
 
       <div class="project">
-        <div class="project-top">
-          <div class="project-name"><a href="https://github.com/ayheong/TenK" target="_blank" rel="noopener">TenK</a></div>
-          <a class="project-link" href="https://github.com/ayheong/TenK" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3v10h10v-3"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>github</a>
+        <div class="project-logo no-img">
+          <img src="racing_logo.png" alt="" onload="this.parentElement.classList.remove('no-img')" onerror="this.parentElement.classList.add('no-img')">
+          <span class="project-logo-fallback">RL</span>
         </div>
-        <p class="project-desc">Analyzes SEC EDGAR 10-K filings, extracts financial signals, and generates investor-friendly reports.</p>
-        <div class="project-tags"><span class="tag">Python</span></div>
+        <div class="project-body">
+          <div class="project-top">
+            <div class="project-name"><a href="https://github.com/ayheong/DQN_PPO_gym_2d_car_racing" target="_blank" rel="noopener">Car Racing with Reinforcement Learning</a></div>
+            <div class="project-links">
+              <span class="project-link project-link-soon" title="Demo coming soon">demo coming soon</span>
+              <a class="project-link project-link-github" href="https://github.com/ayheong/DQN_PPO_gym_2d_car_racing" target="_blank" rel="noopener" aria-label="View on GitHub"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a>
+            </div>
+          </div>
+          <p class="project-desc">Watch AI drivers learn a 2D racetrack from scratch and compare how different learning styles improve lap after lap.</p>
+          <div class="project-tags"><span class="tag">Python</span><span class="tag">PyTorch</span></div>
+        </div>
       </div>
 
     </section>
