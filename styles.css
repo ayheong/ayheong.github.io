@@ -85,7 +85,7 @@
     max-width: min(980px, 100%);
     padding-top: clamp(12px, 2vh, 24px);
     padding-bottom: clamp(12px, 2vh, 24px);
-    zoom: 0.875;
+    zoom: 0.75;
   }
   .hero-content {
     padding: 0;
@@ -545,7 +545,7 @@
     padding: 3px 8px; border-radius: 4px;
   }
 
-  .page-projects .wrap { max-width: min(920px, 100%); zoom: 0.875; }
+  .page-projects .wrap { max-width: min(920px, 100%); zoom: 0.75; }
   .page-projects .section-title { font-size: 1.1rem; margin-bottom: 16px; }
   .page-projects #projects { padding-top: 28px !important; }
 
